@@ -1,0 +1,388 @@
+:root {
+    --main-font: "DM Sans";
+    --primary-color: #458ff6;
+    --black: #000000;
+    --white: #FFFFFF;
+    --xl: 1920px;
+    --lg: 1280px;
+    --md: 960px;
+    --sm: 600px;
+    --xs: 320px;
+    
+
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+
+}
+    
+
+body {
+
+    font-family: var(--main-font);
+    margin: 0;
+    padding: 0;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+header.landing {
+
+    position: absolute;
+
+}
+
+
+
+
+
+
+header .header-bin {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    max-width: var(--lg);
+    background-color: var(--white);
+}
+
+
+
+header .header-bin nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+header .header-bin nav .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: var(--main-font);
+    padding: 0 0 0 0px;
+    
+    width: 200px;
+    position: relative;
+    font-size: 100px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+header .header-bin nav .logo span {
+    font-size: 25px;
+    position: absolute;
+
+}
+
+header .header-bin nav ul li a {
+
+    color: var(--brand-green);
+    font-size: 14px;
+    font-weight: 400;
+    transition: var(--tc);
+    position: relative;
+
+}
+
+
+header .header-bin nav ul li a:hover {
+    font-weight: bold;
+
+}
+
+header .header-bin nav ul {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+header .header-bin nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+.hero {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+
+}
+
+
+.hero .hero-bin {
+
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+
+    position: relative;
+    z-index: -1;
+    background-color: var(--white);
+
+}
+
+
+.hero .hero-bin-content {
+
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: var(--lg);
+    bottom: 35vh;
+
+}
+
+.hero .hero-bin-content .box {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    width: 700px;
+    padding: 0px;
+    margin: 0;
+}
+
+
+
+/* h1 kontentas */
+.hero .hero-bin-content .box h1 {
+    letter-spacing: 0.1;
+    color: var(--black);
+    font-size: 50px;
+    padding: 20px 0px;
+
+    font-family: sans-serif;
+}
+
+
+
+
+.hero .hero-bin-content .box p {
+    letter-spacing: 0.1;
+    color: var(--black);
+    font-size: 20px;
+    padding: 20px 0px;
+     font: main-font ;
+
+     
+}
+
+
+
+
+.hero .hero-bin-content .box2 img {
+
+    
+
+    width: 90%;
+   
+      float:right;
+      
+      
+}
+
+
+
+
+
+
+
+
+
+
+.block-deep {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+    margin-bottom: 100px;
+    
+}
+
+
+
+
+
+.block-deep .block-deep-bin .block-deep-content h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin: 40px 0;
+    padding-left: 450px;
+}
+
+
+.block-deep .block-deep-bin .block-deep-content p {
+    
+    letter-spacing: 0.1;
+    color: var(--black);
+    font-size: 20px;
+    padding: 10px 0px;
+     font: main-font ;
+padding-left: 100px;
+
+Text-align: center;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+.blocks {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+    padding-bottom: 100px;
+
+    
+}
+
+.blocks .blocks-bin {
+    width: 100%;
+    max-width: var(--lg);
+    padding: 0 10px 0 60px;
+    
+}
+
+.blocks .blocks-bin h2.header {
+    font-size: 60px;
+    
+    margin: 40px 0;
+    
+    text-align: center;
+}
+
+
+.blocks .blocks-bin p {
+    font-size: 20px;
+    
+    margin: 30px 0 100px 0;
+    
+    text-align: center;
+}
+
+
+
+
+.blocks .blocks-bin img mygtukas2.png  {
+
+    width: 5%;   
+    
+   nezinau ka rasyt
+}
+
+
+
+
+
+.blocks .blocks-bin .blocks-holder {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 70px 0 0 0;
+    justify-content: center;
+    column-gap: 80px;
+    row-gap: 50px;
+    
+    
+}
+
+.blocks .blocks-bin .blocks-holder .block {
+    display: flex;
+    position: relative;
+    max-width: 100px;
+    min-width: 300px;
+    justify-content: left;
+   
+
+}
+
+.blocks .blocks-bin .blocks-holder .block img {
+    position: absolute;
+    
+    max-height: 70px;
+    top: -70px;
+    
+    
+
+    
+}
+
+.blocks .blocks-bin .blocks-holder .block .block-content {
+    position: relative;
+    
+    text-align: left;
+}
+
+
+.blocks .blocks-bin .blocks-holder .block .block-content h2 {
+    
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+}
+
+
+.blocks .blocks-bin .blocks-holder .block .block-content p {
+    
+    text-align: left;
+
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
